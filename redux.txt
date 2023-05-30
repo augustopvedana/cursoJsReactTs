@@ -1,0 +1,14 @@
+--> Estado inicial: {
+  usuario_logado: false
+}
+
+Se quiser alterar o estado da propriedade:
+
+-> Dispara uma ação -> reducer -> newState => stateAlterado -> newStateGlobal
+
+
+
+Para requisições backend (Redux Saga)
+
+ação (request) -> saga -> reducer > success/fail
+
